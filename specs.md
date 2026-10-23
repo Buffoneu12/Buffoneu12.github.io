@@ -86,7 +86,7 @@ Ordem justificada: identidade → credibilidade → prova → contato.
 | Nome e formação | ✅ definido | "Júlia Buffon" · Estudante de Ciência da Computação · dev + design |
 | Curso, instituição e previsão de conclusão | ⛔ pendente | aparece no Sobre e no JSON-LD `alumniOf` |
 | Objetivo profissional | ⛔ pendente | estágio, júnior ou freelance — define a promessa do hero |
-| Frase de posicionamento (hero) | ✅ definido | 96 caracteres, PT e EN, em `data/i18n` |
+| Frase de posicionamento (hero) | ✅ definido | 91 caracteres, PT e EN, em `data/i18n` |
 | Bio (sobre) | ⛔ pendente | 120–200 palavras, PT e EN |
 | Stack / skills | ⛔ pendente | lista de tecnologias + nível |
 | Foto | ⛔ pendente | opcional; se não houver, usar monograma tipográfico |
