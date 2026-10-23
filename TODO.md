@@ -401,7 +401,7 @@ Estrutura dentro de `.hero#inicio`:
 
 **Commit:** `adiciona secao hero`
 
-### [ ] T14 — Sobre
+### [x] T14 — Sobre
 Estrutura dentro de `.section#sobre`:
 
 1. `<p class="section__label" data-i18n="about.label">01 — Sobre</p>`

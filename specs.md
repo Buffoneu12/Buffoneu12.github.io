@@ -88,7 +88,7 @@ Ordem justificada: identidade → credibilidade → prova → contato.
 | Objetivo do site | ✅ definido | publicar e organizar projetos — a vitrine é o projeto, não a busca por vaga |
 | Frase de posicionamento (hero) | ✅ definido | 91 caracteres, PT e EN, em `data/i18n` |
 | Bio (sobre) | ✅ definido | 3 parágrafos · 126 palavras PT / 108 EN |
-| Stack / skills | ⛔ pendente | lista de tecnologias + nível |
+| Stack / skills | ✅ definido | 8 itens em chips, sem nível na v1 |
 | Foto | ⛔ pendente | opcional; se não houver, usar monograma tipográfico |
 | Projetos | ⛔ vazio | Júlia ainda não tem projetos publicados |
 | E-mail | ✅ definido | `juliabuffon7@gmail.com` |
