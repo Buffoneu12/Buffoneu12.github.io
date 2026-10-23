@@ -387,7 +387,7 @@ Copiar **exatamente** esta tabela, mesma estrutura de chaves nos dois arquivos:
 
 > Bloqueada por **H3**. Não escreva textos no lugar da Júlia.
 
-### [ ] T13 — Hero
+### [x] T13 — Hero
 Estrutura dentro de `.hero#inicio`:
 
 1. `<p class="hero__role" data-i18n="hero.role">Estudante de Ciência da Computação · Dev + Design</p>`
