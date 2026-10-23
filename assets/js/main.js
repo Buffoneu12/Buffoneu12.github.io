@@ -26,9 +26,18 @@ function initReveal() {
   }, { threshold: 0.15 });
 
   elements.forEach((element) => {
+    if (element.getBoundingClientRect().top < window.innerHeight) {
+      element.classList.add('is-visible');
+      return;
+    }
     element.dataset.reveal = '';
     observer.observe(element);
   });
+
+  // Rede de segurança: nada pode ficar invisível, mesmo com saltos de âncora.
+  window.setTimeout(() => {
+    elements.forEach((element) => element.classList.add('is-visible'));
+  }, 2000);
 }
 
 function initScrollSpy() {

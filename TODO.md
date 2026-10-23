@@ -674,3 +674,4 @@ Bugs encontrados e corrigidos durante a execução:
 2. Botão de idioma violava WCAG 2.5.3 (Label in Name): visível "EN", nome acessível "Mudar para inglês". Strings passaram a ser "EN — Mudar para inglês" / "PT — Switch to Portuguese".
 3. Monograma do card usava `.card__meta`, colidindo com o metadado real. Criada a classe `.card__monogram`.
 4. `fetch` de `projetos.json` podia servir cache antigo. Adicionado `{ cache: 'no-cache' }`.
+5. Reveal com `IntersectionObserver` podia deixar seções permanentemente invisíveis após salto de âncora. Agora o que está acima da dobra aparece imediatamente e há rede de segurança de 2 s.
