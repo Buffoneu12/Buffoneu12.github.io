@@ -212,7 +212,7 @@ Escala (mobile → desktop via `clamp`):
 | `nav` | âncoras com scroll suave (respeitando reduced-motion), item ativo destacado |
 | `lang-switch` | botão PT/EN com `aria-pressed`; persiste em `localStorage` |
 | `theme-toggle` | sol/lua, `aria-label` dinâmico, respeita `prefers-color-scheme` na primeira visita |
-| `hero` | nome, formação em mono (`Estudante de Ciência da Computação`), frase, CTA primário + secundário, links sociais |
+| `hero` | nome, área em mono (`Dev + Design`), frase, CTA primário + secundário, links sociais |
 | `section` | rótulo mono numerado (ex.: `01 — Sobre`), h2, conteúdo |
 | `chip` | tecnologia, mono, fundo `--accent-soft`, borda `--border` |
 | `project-card` | imagem (16:9), título, resumo, tags, links; card inteiro clicável, foco visível |
