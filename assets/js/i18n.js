@@ -38,12 +38,14 @@ export function applyI18n() {
 
   document.documentElement.lang = currentLang === 'pt' ? 'pt-BR' : 'en';
 
-  const title = get(dict, 'meta.title');
-  if (title) document.title = title;
+  if (document.body.dataset.page !== '404') {
+    const title = get(dict, 'meta.title');
+    if (title) document.title = title;
 
-  const description = document.querySelector('meta[name="description"]');
-  const descriptionText = get(dict, 'meta.description');
-  if (description && descriptionText) description.setAttribute('content', descriptionText);
+    const description = document.querySelector('meta[name="description"]');
+    const descriptionText = get(dict, 'meta.description');
+    if (description && descriptionText) description.setAttribute('content', descriptionText);
+  }
 
   const toggle = document.getElementById('lang-toggle');
   if (toggle) {

@@ -526,11 +526,11 @@ Execute **todos** os testes abaixo. Qualquer falha volta para a tarefa de origem
 Abrir em 320px, 768px e 1440px. Critério: nenhum scroll horizontal, nenhum texto cortado,
 grade de projetos com 1 / 2 / 3 colunas.
 
-### [ ] T24 — TST-02 Temas
+### [x] T24 — TST-02 Temas
 Alternar claro/escuro em cada seção. Critério: todos os textos legíveis, sem "flash" de tema errado
 ao recarregar.
 
-### [ ] T25 — TST-03 Idiomas
+### [x] T25 — TST-03 Idiomas
 Alternar PT/EN em todas as seções. Critério: nenhuma string vazia, `undefined` ou em idioma errado;
 `<html lang>` muda; escolha persiste após recarregar.
 
@@ -541,10 +541,10 @@ visível; ordem segue a ordem visual.
 ### [ ] T27 — TST-05 Sem JavaScript
 Desativar JS. Critério: nome, formação, bio, stack e estado vazio de projetos continuam visíveis.
 
-### [ ] T28 — TST-06 Console e recursos
+### [x] T28 — TST-06 Console e recursos
 Critério: zero erros no console; zero requisições 404.
 
-### [ ] T29 — TST-07 Orçamento de peso
+### [x] T29 — TST-07 Orçamento de peso
 Rodar:
 ```powershell
 (Get-ChildItem assets/css/*.css | Measure-Object Length -Sum).Sum
@@ -583,33 +583,33 @@ Critério: todos funcionam; externos com `rel="noopener"`.
 
 > **G4** — confirmação explícita da Júlia para publicar.
 
-### [ ] T35 — Primeiro push
+### [x] T35 — Primeiro push
 ```powershell
 git remote add origin https://github.com/Buffoneu12/Buffoneu12.github.io.git
 git push -u origin main
 ```
 **Verificação:** `git status -sb` mostra `main...origin/main` sem divergência.
 
-### [ ] T36 — Ativar GitHub Pages
+### [x] T36 — Ativar GitHub Pages
 ```powershell
 gh api -X POST repos/Buffoneu12/Buffoneu12.github.io/pages -f "source[branch]=main" -f "source[path]=/"
 ```
 **Verificação:** `gh api repos/Buffoneu12/Buffoneu12.github.io/pages --jq .html_url` retorna
 `https://buffoneu12.github.io/`.
 
-### [ ] T37 — Verificar no ar
+### [x] T37 — Verificar no ar
 1. Abrir `https://buffoneu12.github.io/` em aba anônima.
 2. Critério: carrega com HTTPS, sem erro de recurso, tema escuro, PT por padrão.
 3. Abrir uma URL inexistente. Critério: `404.html` aparece.
 
-### [ ] T38 — Criar `robots.txt` e `sitemap.xml`
+### [x] T38 — Criar `robots.txt` e `sitemap.xml`
 1. `robots.txt`: `User-agent: *` + `Allow: /` + `Sitemap: https://buffoneu12.github.io/sitemap.xml`.
 2. `sitemap.xml` com a home e `lastmod` do dia.
 3. Push e aguardar o deploy.
 
 **Verificação:** ambas as URLs respondem 200.
 
-### [ ] T39 — Encerrar pendências
+### [x] T39 — Encerrar pendências
 1. Atualizar `specs.md` §6 com o que foi definido em H3.
 2. Marcar no §11 todos os itens concluídos.
 3. Registrar no `README.md` a URL do site.
