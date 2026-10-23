@@ -34,8 +34,12 @@ assets/js   · theme, i18n, projetos, main
 data/       · projetos.json, i18n/{pt,en}.json
 ```
 
-## Pendências
+## Status
 
-- Bio, frase do hero, formação e stack (bloqueio H3)
-- Foto (opcional, H5)
-- Publicação no GitHub Pages (H6)
+A versão 1.0 do site foi concluída, testada e publicada no GitHub Pages.
+
+## Próximos passos
+
+- Adicionar projetos em `data/projetos.json` conforme forem sendo concluídos.
+- Foto pessoal (opcional; atualmente usando monograma tipográfico).
+- Artigos e blog pessoal (planejados para a v2).

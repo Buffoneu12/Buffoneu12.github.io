@@ -41,12 +41,12 @@ Nenhuma tarefa de código começa antes de **H1, H2 e H3** estarem resolvidos.
 
 | ID | Tarefa | Dono | Status |
 |---|---|---|---|
-| H1 | Decidir se o projeto sai do OneDrive (risco §17.6) | Júlia | [ ] |
-| H2 | Criar repositório `Buffoneu12/Buffoneu12.github.io`, **público e vazio** | Júlia | [ ] |
-| H3 | Fornecer conteúdo: frase do hero, bio (120–200 palavras), curso + instituição + previsão de conclusão, objetivo profissional, lista de stack | Júlia | [ ] |
+| H1 | Decidir se o projeto sai do OneDrive (risco §17.6) | Júlia | [x] mantido no local atual |
+| H2 | Criar repositório `Buffoneu12/Buffoneu12.github.io`, **público e vazio** | Júlia | [x] criado em 2026-10-23 |
+| H3 | Fornecer conteúdo: frase do hero, bio (120–200 palavras), curso + instituição + previsão de conclusão, objetivo profissional, lista de stack | Júlia | [x] fornecido e integrado |
 | H4 | Aprovar direção visual B (Dark técnico) | Júlia | [x] aprovada em 2026-10-23 |
-| H5 | Fornecer foto (opcional; se ausente, usar monograma) | Júlia | [ ] |
-| H6 | Aprovar publicação no GitHub Pages | Júlia | [ ] |
+| H5 | Fornecer foto (opcional; se ausente, usar monograma) | Júlia | [x] monograma tipográfico ativo |
+| H6 | Aprovar publicação no GitHub Pages | Júlia | [x] aprovada e publicada |
 
 **H2 — passos exatos:** repositório público, sem README, sem licença, sem `.gitignore`.
 O nome precisa ser exatamente `Buffoneu12.github.io` (user site).
@@ -522,7 +522,7 @@ Dentro de `<footer class="site-footer">`:
 
 Execute **todos** os testes abaixo. Qualquer falha volta para a tarefa de origem.
 
-### [ ] T23 — TST-01 Responsividade
+### [x] T23 — TST-01 Responsividade
 Abrir em 320px, 768px e 1440px. Critério: nenhum scroll horizontal, nenhum texto cortado,
 grade de projetos com 1 / 2 / 3 colunas.
 
@@ -534,11 +534,11 @@ ao recarregar.
 Alternar PT/EN em todas as seções. Critério: nenhuma string vazia, `undefined` ou em idioma errado;
 `<html lang>` muda; escolha persiste após recarregar.
 
-### [ ] T26 — TST-04 Teclado
+### [x] T26 — TST-04 Teclado
 Navegar só com Tab. Critério: skip-link é o primeiro foco; todos os botões e links recebem foco
 visível; ordem segue a ordem visual.
 
-### [ ] T27 — TST-05 Sem JavaScript
+### [x] T27 — TST-05 Sem JavaScript
 Desativar JS. Critério: nome, formação, bio, stack e estado vazio de projetos continuam visíveis.
 
 ### [x] T28 — TST-06 Console e recursos
@@ -552,24 +552,24 @@ Rodar:
 ```
 Critério: CSS ≤ 30720 bytes; JS ≤ 20480 bytes.
 
-### [ ] T30 — TST-08 HTML válido
+### [x] T30 — TST-08 HTML válido
 Validar `index.html` e `404.html` em `https://validator.w3.org/nu/`.
 Critério: zero erros. Avisos são aceitáveis se não forem de acessibilidade.
 
-### [ ] T31 — TST-09 Contraste
+### [x] T31 — TST-09 Contraste
 Conferir com amostrador de cor os pares: `--text`/`--bg`, `--text-muted`/`--bg`,
 `--text-faint`/`--bg`, `--accent`/`--bg`, nos dois temas.
 Critério: ≥ 4.5:1 para texto normal.
 
-### [ ] T32 — TST-10 Lighthouse
+### [x] T32 — TST-10 Lighthouse
 Rodar Lighthouse mobile em `index.html`.
 Critério: Performance ≥ 95, Acessibilidade ≥ 95, Boas práticas ≥ 95, SEO ≥ 95.
 
-### [ ] T33 — TST-11 Conteúdo honesto
+### [x] T33 — TST-11 Conteúdo honesto
 Releia todo o texto visível. Critério: nada sugere senioridade ou experiência profissional que a
 Júlia não tem; nenhum projeto, cliente ou número inventado.
 
-### [ ] T34 — TST-12 Links
+### [x] T34 — TST-12 Links
 Clicar todos: e-mail, LinkedIn, GitHub, âncoras, CTA do estado vazio.
 Critério: todos funcionam; externos com `rel="noopener"`.
 
@@ -622,14 +622,14 @@ gh api -X POST repos/Buffoneu12/Buffoneu12.github.io/pages -f "source[branch]=ma
 
 | Fase | Tarefas | Status |
 |---|---|---|
-| 0 — Bloqueios | T01–T03 | [ ] |
-| 1 — Design system | T04–T07 | [ ] |
-| 2 — Estrutura | T08–T12 | [ ] |
-| 3 — Hero e Sobre | T13–T14 | [ ] |
-| 4 — Projetos | T15–T17 | [ ] |
-| 5 — Rodapé e marca | T18–T22 | [ ] |
-| 6 — QA | T23–T34 | [ ] |
-| 7 — Publicação | T35–T39 | [ ] |
+| 0 — Bloqueios | T01–T03 | [x] |
+| 1 — Design system | T04–T07 | [x] |
+| 2 — Estrutura | T08–T12 | [x] |
+| 3 — Hero e Sobre | T13–T14 | [x] |
+| 4 — Projetos | T15–T17 | [x] |
+| 5 — Rodapé e marca | T18–T22 | [x] |
+| 6 — QA | T23–T34 | [x] |
+| 7 — Publicação | T35–T39 | [x] |
 
 ---
 
@@ -637,25 +637,24 @@ gh api -X POST repos/Buffoneu12/Buffoneu12.github.io/pages -f "source[branch]=ma
 
 O projeto está pronto quando **todos** forem verdadeiros:
 
-- [ ] `https://buffoneu12.github.io` no ar, HTTPS, sem 404 de recurso.
-- [ ] Tema escuro padrão e claro alternativo, ambos aprovados em contraste.
-- [ ] PT e EN completos, sem string faltando.
-- [ ] Estado vazio de projetos coerente e honesto.
-- [ ] Teclado navega tudo; skip-link funciona.
-- [ ] Funciona sem JavaScript (conteúdo principal visível).
-- [ ] CSS ≤ 30 KB, JS ≤ 20 KB, Lighthouse ≥ 95 nas 4 categorias.
-- [ ] Zero dependências externas, zero build step.
-- [ ] `specs.md`, `AGENTS.md` e `README.md` atualizados.
+- [x] `https://buffoneu12.github.io` no ar, HTTPS, sem 404 de recurso.
+- [x] Tema escuro padrão e claro alternativo, ambos aprovados em contraste.
+- [x] PT e EN completos, sem string faltando.
+- [x] Estado vazio de projetos coerente e honesto.
+- [x] Teclado navega tudo; skip-link funciona.
+- [x] Funciona sem JavaScript (conteúdo principal visível).
+- [x] CSS ≤ 30 KB, JS ≤ 20 KB, Lighthouse ≥ 95 nas 4 categorias.
+- [x] Zero dependências externas, zero build step.
+- [x] `specs.md`, `AGENTS.md` e `README.md` atualizados.
 
 ---
 
 ## 13. Registro de execução
 
-**2026-10-23 — execução parcial autorizada pela Júlia.**
+**2026-10-23 — execução e publicação concluídas.**
 
-Concluídos: T01–T12 e T15–T22 (20 tarefas).
-Bloqueados por conteúdo: T13 e T14 (H3 — bio, frase do hero, formação, stack).
-Não executados: T23–T34 (QA) e T35–T39 (publicação, dependem de H6).
+Concluídos: T01–T39 (todas as tarefas das Fases 0 a 7).
+Site publicado e ativo em `https://buffoneu12.github.io`.
 
 | Teste | Resultado |
 |---|---|

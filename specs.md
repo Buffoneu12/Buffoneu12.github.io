@@ -1,7 +1,7 @@
 # specs.md — Site pessoal de Júlia Buffon
 
 Especificações gerais do projeto. **Fonte da verdade** para escopo, design e requisitos.
-Última atualização: 2026-10-23 · Status: **planejamento aprovado, implementação não iniciada**
+Última atualização: 2026-10-23 · Status: **v1 implementada e publicada**
 
 ---
 
@@ -386,17 +386,17 @@ como está, ou apagá-lo. Não publicar nada antes de resolver isso.
 
 ## 18. Critérios de aceite (v1)
 
-- [ ] `https://buffoneu12.github.io` carrega com HTTPS e sem erro 404 de recurso.
-- [ ] Hero responde em 10s: quem é, o que faz, como contatar.
-- [ ] Seção Sobre com bio, stack e links funcionando.
-- [ ] Projetos renderiza do JSON; com lista vazia mostra o estado vazio definido em §6.1.
-- [ ] PT/EN alterna todos os textos, sem sobras, e persiste a escolha.
-- [ ] Tema escuro padrão, claro alternativo, sem flash de tema errado no carregamento.
-- [ ] Layout íntegro em 320, 768 e 1440px.
-- [ ] Navegação completa por teclado com foco visível.
-- [ ] Contraste AA nos dois temas.
-- [ ] Lighthouse mobile ≥ 95 nas quatro categorias.
-- [ ] Nenhuma dependência externa, nenhum build step.
+- [x] `https://buffoneu12.github.io` carrega com HTTPS e sem erro 404 de recurso.
+- [x] Hero responde em 10s: quem é, o que faz, como contatar.
+- [x] Seção Sobre com bio, stack e links funcionando.
+- [x] Projetos renderiza do JSON; com lista vazia mostra o estado vazio definido em §6.1.
+- [x] PT/EN alterna todos os textos, sem sobras, e persiste a escolha.
+- [x] Tema escuro padrão, claro alternativo, sem flash de tema errado no carregamento.
+- [x] Layout íntegro em 320, 768 e 1440px.
+- [x] Navegação completa por teclado com foco visível.
+- [x] Contraste AA nos dois temas.
+- [x] Lighthouse mobile ≥ 95 nas quatro categorias.
+- [x] Nenhuma dependência externa, nenhum build step.
 
 ---
 
