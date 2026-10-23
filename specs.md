@@ -30,7 +30,7 @@ posições júnior) quanto para contato de clientes.
 
 ## 2. Objetivos
 
-1. Comunicar em **menos de 10 segundos** quem é a Júlia, o que ela faz e como contratá-la.
+1. Comunicar em **menos de 10 segundos** quem é a Júlia e o que ela constrói.
 2. Servir de vitrine viva: cada projeto novo é adicionado sem refatorar o site.
 3. Ser rápido, acessível e funcionar bem em celular — o portfólio de alguém que faz front-end precisa
    provar competência técnica no próprio código.
@@ -85,7 +85,7 @@ Ordem justificada: identidade → credibilidade → prova → contato.
 |---|---|---|
 | Nome e formação | ✅ definido | "Júlia Buffon" · Estudante de Ciência da Computação · dev + design |
 | Curso, instituição e previsão de conclusão | ✅ definido | Ciências da Computação · Atitus Educação · 2030 (Sobre + JSON-LD `affiliation`) |
-| Objetivo profissional | ⛔ pendente | estágio, júnior ou freelance — define a promessa do hero |
+| Objetivo do site | ✅ definido | publicar e organizar projetos — a vitrine é o projeto, não a busca por vaga |
 | Frase de posicionamento (hero) | ✅ definido | 91 caracteres, PT e EN, em `data/i18n` |
 | Bio (sobre) | ✅ definido | 3 parágrafos · 126 palavras PT / 108 EN |
 | Stack / skills | ⛔ pendente | lista de tecnologias + nível |
