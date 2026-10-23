@@ -84,7 +84,7 @@ Ordem justificada: identidade → credibilidade → prova → contato.
 | Bloco | Status | Observação |
 |---|---|---|
 | Nome e formação | ✅ definido | "Júlia Buffon" · Estudante de Ciência da Computação · dev + design |
-| Curso, instituição e previsão de conclusão | ⛔ pendente | aparece no Sobre e no JSON-LD `alumniOf` |
+| Curso, instituição e previsão de conclusão | ✅ definido | Ciências da Computação · Atitus Educação · 2030 (Sobre + JSON-LD `affiliation`) |
 | Objetivo profissional | ⛔ pendente | estágio, júnior ou freelance — define a promessa do hero |
 | Frase de posicionamento (hero) | ✅ definido | 91 caracteres, PT e EN, em `data/i18n` |
 | Bio (sobre) | ⛔ pendente | 120–200 palavras, PT e EN |
