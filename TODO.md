@@ -346,7 +346,7 @@ Copiar **exatamente** esta tabela, mesma estrutura de chaves nos dois arquivos:
 | `theme.toDark` | Mudar para tema escuro | Switch to dark theme |
 | `hero.role` | Estudante de Ciência da Computação · Dev + Design | Computer Science Student · Dev + Design |
 | `hero.cta.primary` | Ver projetos | View projects |
-| `hero.cta.secondary` | Falar comigo | Get in touch |
+| `hero.cta.secondary` | Fale comigo | Get in touch |
 | `about.label` | 01 — Sobre | 01 — About |
 | `about.title` | Quem sou | About me |
 | `projects.label` | 02 — Projetos | 02 — Projects |
