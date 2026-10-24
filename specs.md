@@ -41,7 +41,7 @@ posições júnior) quanto para contato de clientes.
 ## 3. Não-objetivos (v1)
 
 - Blog / artigos (seção prevista para v2, não implementar agora).
-- Formulário de contato com backend (só `mailto:`).
+- Formulário de contato com backend (só link direto para Gmail web).
 - Currículo em PDF para download.
 - Área administrativa, CMS ou banco de dados.
 - Domínio próprio (decidido depois; a arquitetura deve permitir migrar sem retrabalho).
