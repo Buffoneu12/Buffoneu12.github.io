@@ -35,6 +35,13 @@
   color: var(--accent);
 }
 
+.btn--copied,
+.btn--copied:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
 .control-btn {
   display: inline-flex;
   align-items: center;

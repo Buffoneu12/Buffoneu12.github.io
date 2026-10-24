@@ -58,6 +58,12 @@ export function getLang() {
   return currentLang;
 }
 
+export function t(key) {
+  const dict = dictionaries[currentLang];
+  if (!dict) return null;
+  return get(dict, key);
+}
+
 export function setLang(lang) {
   if (!SUPPORTED.includes(lang)) return;
   currentLang = lang;
